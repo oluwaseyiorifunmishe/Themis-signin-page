@@ -23,9 +23,9 @@ def load_user(user_id):
 
 # A simple user database
 users = {
-    1: {'username': 'Baze University', 'password': 'BAZEUNIVERSITY', 'unique identifier': 'baze identifier', 'redirect_url': 'https://view.genial.ly/6468935c7efa7c0012a47703/interactive-image-baze-university-abuja-interactive-image'},
-    2: {'username': 'Nile University', 'password': 'NILEUNIVERSITY', 'unique identifier': 'nile identifier', 'redirect_url': 'https://www.genial.ly/embed/123456'},
-    3: {'username': 'British Nigerian Academy', 'password': 'BRITISHNIGERIANACADEMY', 'unique identifier': 'bna identifier', 'redirect_url': 'https://www.genial.ly/embed/7891011'}
+    1: {'username': 'Baze University', 'password': 'BAZEUNIVERSITY', 'unique_identifier': 'baze identifier', 'redirect_url': 'https://view.genial.ly/6468935c7efa7c0012a47703/interactive-image-baze-university-abuja-interactive-image'},
+    2: {'username': 'Nile University', 'password': 'NILEUNIVERSITY', 'unique_identifier': 'nile identifier', 'redirect_url': 'https://www.genial.ly/embed/123456'},
+    3: {'username': 'British Nigerian Academy', 'password': 'BRITISHNIGERIANACADEMY', 'unique_identifier': 'bna identifier', 'redirect_url': 'https://www.genial.ly/embed/7891011'}
 }
 
 # Define a route that renders your sign-in form
