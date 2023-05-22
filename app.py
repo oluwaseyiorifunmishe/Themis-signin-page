@@ -74,4 +74,4 @@ def dashboard():
     return "Invalid user or no redirect URL available."
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    
